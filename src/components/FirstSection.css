@@ -1,0 +1,47 @@
+.FirstSection {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.Quote {
+  font-weight: 700;
+  font-size: 3rem;
+  width: 45rem;
+  margin: 10rem;
+}
+
+.Quote p {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.Grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+  align-self: stretch;
+  grid-auto-rows: 30rem;
+}
+
+.GridItem {
+  /* border-radius: 1rem; */
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.GridItem.Landscape {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.GridItem > img {
+  object-fit: cover;
+  width: 100%;
+}
