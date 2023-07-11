@@ -1,4 +1,3 @@
-import React from "react";
 import "./FirstSection.css";
 import Img1 from "../assets/img/first-section-1.png";
 import Img2 from "../assets/img/first-section-2.png";
