@@ -1,0 +1,10 @@
+.QuoteHighlight {
+  font-family: "source serif 4 italic";
+  font-weight: 500;
+  font-size: var(--font-medium);
+  font-style: italic;
+  /* width: 50rem; */
+  background-color: var(--bg-color-darken);
+  padding: 5rem;
+  margin: 6rem;
+}

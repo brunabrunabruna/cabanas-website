@@ -1,0 +1,26 @@
+.ShortDescriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.ShortDescriptions img {
+  height: 40rem;
+  object-fit: cover;
+}
+.DescriptionItem {
+  font-family: var(--secondary-font);
+
+  width: 20rem;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+
+.DescriptionItem:last-child {
+  margin-bottom: 0;
+}
+
+.DescriptionItemTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
