@@ -6,5 +6,5 @@
   /* width: 50rem; */
   background-color: var(--bg-color-darken);
   padding: 5rem;
-  margin: 6rem;
+  margin: var(--margin);
 }

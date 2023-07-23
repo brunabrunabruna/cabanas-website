@@ -12,7 +12,7 @@
   font-weight: 700;
   font-size: var(--font-large);
   width: 45rem;
-  margin: 10rem 10rem 10rem 1rem;
+  margin: var(--margin);
   align-self: baseline;
 }
 
@@ -30,12 +30,15 @@
 
 .Grid {
   display: grid;
-  gap: 3rem;
+  gap: var(--grid-gap);
   grid-template-columns: 1fr 1fr;
   margin-top: 5rem;
   align-self: stretch;
-  grid-auto-rows: 30rem;
-  width: 60rem;
+  /* grid-auto-rows: 30rem;
+  width: 60rem; */
+  /* max-width: 70rem; */
+  margin-left: var(--margin);
+  margin-right: var(--margin);
 }
 
 .GridItem {

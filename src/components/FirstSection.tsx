@@ -25,7 +25,7 @@ const FirstSection = () => {
           <img src={Img1} alt="" />
         </div>
         <div className="GridItem">
-          Muito ar puro, paz e tranquil idade para relaxar e passar alguns dias
+          Muito ar puro, paz e tranquilidade para relaxar e passar alguns dias
           conectados com a natureza.
         </div>
         <div className="GridItem Landscape">

@@ -1,0 +1,31 @@
+.Location {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/* .Quote {
+  font-weight: 700;
+  font-size: var(--font-large);
+  width: 45rem;
+  margin: var(--margin);
+  align-self: baseline;
+} */
+
+.Quote2 {
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  font-size: var(--font-medium);
+  margin-top: 10rem;
+}
+
+.Quote p {
+  font-weight: 400;
+  font-size: var(--font-medium);
+  margin-top: 3rem;
+  font-family: var(--secondary-font);
+}

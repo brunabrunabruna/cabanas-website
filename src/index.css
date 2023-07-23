@@ -31,6 +31,12 @@
   --font-large: 3rem;
   --font-medium: 2rem;
   --font-small: 1rem;
+
+  /* GRID */
+  --grid-gap: 3rem;
+
+  /* MARGIN */
+  --margin: 10rem;
 }
 
 a {
@@ -71,6 +77,7 @@ button {
   background-color: var(--primary-color);
   border: none;
   color: var(--bg-color);
+  align-self: center;
 }
 button:hover {
   opacity: 0.5;

@@ -1,6 +1,6 @@
 import "./QuoteHighlight.css";
 
-const QuoteHighlight = () => {
+const QuoteHighlight1 = () => {
   return (
     <div className="QuoteHighlight">
       Matas com pinheiros centenários, vegetação preservada. Aqui voce vai
@@ -10,4 +10,4 @@ const QuoteHighlight = () => {
   );
 };
 
-export default QuoteHighlight;
+export default QuoteHighlight1;

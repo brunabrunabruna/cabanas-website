@@ -1,0 +1,31 @@
+.ImgGallery {
+  /* background-color: aqua; */
+  display: grid;
+  gap: var(--grid-gap);
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  align-self: stretch;
+  /* grid-auto-rows: 30rem; */
+  /* width: 160rem; */
+  margin-right: var(--margin);
+  margin-left: var(--margin);
+}
+
+.ImgGalleryItem {
+  /* border-radius: 1rem; */
+  overflow: hidden;
+  /* for debugging */
+  /* background-color: aqua; */
+  font-size: var(--font-large);
+  font-weight: 600;
+}
+
+.ImgGalleryItem > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.ImgGalleryItem.Landscape {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
