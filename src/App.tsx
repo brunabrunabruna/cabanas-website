@@ -6,6 +6,7 @@ import ShortDescriptions from "./components/ShortDescriptions";
 import QuoteHighlight2 from "./components/QuoteHighlight2";
 import ImgGallery from "./components/ImgGallery";
 import Location from "./components/Location";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <QuoteHighlight2 />
       <ImgGallery />
       <Location />
+      <Footer />
     </div>
   );
 };
