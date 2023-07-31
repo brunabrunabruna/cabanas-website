@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="HeroSection">
       <img src={HeroImg} alt="" className="HeroImg" />
-      <img src={Logo} alt="" className="Logo" />
+      {/* <img src={Logo} alt="" className="Logo" /> */}
     </div>
   );
 };

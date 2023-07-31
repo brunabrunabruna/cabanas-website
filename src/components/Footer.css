@@ -2,17 +2,73 @@
   background-color: var(--bg-color-darken);
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 
-.Quote {
+/* .Quote {
   z-index: 1;
-}
+} */
 
 .LogoImg {
   position: absolute;
-  height: 150%;
-  top: 0;
-  right: 5rem;
+  height: 70%;
+  width: auto;
+  top: 20%;
+  align-self: center;
+  right: -10rem;
   /* background-color: aqua; */
-  z-index: -999;
+  /* z-index: -999; */
+}
+
+.SocialMedia {
+  margin-top: 2rem;
+  color: white;
+  width: auto;
+  align-items: baseline;
+  margin: 70px 0;
+}
+
+.SocialMedia a {
+  color: white;
+}
+
+.QuoteFooter {
+  font-weight: 700;
+  font-size: var(--font-large);
+  width: 100%;
+  margin: 2rem;
+  align-self: baseline;
+}
+.QuoteFooter p {
+  font-weight: 400;
+  font-size: var(--font-medium);
+  margin-top: 1rem;
+  font-family: var(--secondary-font);
+}
+@media (max-width: 1200px) {
+  .Footer {
+    flex-direction: column wrap;
+  }
+  .LogoImg {
+    height: auto;
+    width: 30%;
+    top: 20%;
+    align-self: center;
+    right: -10rem;
+    /* background-color: aqua; */
+    /* z-index: -999; */
+  }
+  .QuoteFooter {
+    font-weight: 700;
+    font-size: var(--font-medium);
+    width: 100%;
+    margin: 2rem;
+    align-self: baseline;
+  }
+  .QuoteFooter p {
+    font-weight: 400;
+    font-size: var(--font-small);
+    margin-top: 1rem;
+    font-family: var(--secondary-font);
+  }
 }

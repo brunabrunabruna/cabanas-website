@@ -59,3 +59,24 @@
   object-fit: cover;
   width: 100%;
 }
+
+@media (max-width: 400px) {
+  .Quote {
+    font-size: var(--font-medium);
+    width: 18rem;
+    margin: 1rem;
+  }
+
+  .Quote p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 3rem;
+    font-family: var(--secondary-font);
+  }
+  button {
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 0.5rem;
+  }
+}

@@ -5,10 +5,21 @@ import LogoImg from "../assets/img/logo-img.png";
 const Footer = () => {
   return (
     <div className="Footer">
-      <div className="Quote">
-        Dolce far Niente Cabanas
-        <p>tel: 5938794</p>
-        <p>av salto RS - Brasil</p>
+      <div className="QuoteFooter">
+        Dolce Far Niente Cabanas
+        <p>Tel: 51 983365508</p>
+        <p>
+          Avenida Vila Eletra, 440
+          <p>Distrito Eletra São Francisco de Paula / RS</p>
+          <button className="SocialMedia">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/dolcefarnientecabanas/"
+            >
+              @dolcefarnientecabanas
+            </a>
+          </button>
+        </p>
       </div>
       <img src={LogoImg} alt="" className="LogoImg" />
     </div>

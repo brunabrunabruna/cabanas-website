@@ -3,9 +3,9 @@ import "./QuoteHighlight.css";
 const QuoteHighlight1 = () => {
   return (
     <div className="QuoteHighlight">
-      Matas com pinheiros centenários, vegetação preservada. Aqui voce vai
-      encontrar muito ar puro, paz e tranquilidade para relaxar e se conectar
-      com a natureza.
+      Na Dolce far Niente Cabanas voce conta com uma area privativa de 1800m2,
+      um jardim de arvores frutiferas, fogo de chao, alem de um deck pergolado
+      com iluminacao especial.
     </div>
   );
 };
