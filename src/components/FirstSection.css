@@ -33,7 +33,7 @@
   gap: var(--grid-gap);
   grid-template-columns: 1fr 1fr;
   margin-top: 5rem;
-  align-self: stretch;
+  /* align-self: stretch; */
   /* grid-auto-rows: 30rem;
   width: 60rem; */
   /* max-width: 70rem; */
