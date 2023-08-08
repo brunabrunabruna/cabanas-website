@@ -5,6 +5,8 @@
   font-style: italic;
   background-color: var(--bg-color-darken);
   padding: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   /* margin: var(--margin); */
 }
 

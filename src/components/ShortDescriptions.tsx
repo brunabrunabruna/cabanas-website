@@ -7,7 +7,7 @@ const ShortDescriptions = () => {
     <div className="ShortDescriptions">
       <section>
         <div className="DescriptionItem">
-          <p className="DescriptionItemTitle">Energia Renovavel</p>
+          <p className="DescriptionItemTitle">Energia Renovável</p>
           <p>
             Toda energia que abastece as cabanas é proveniente de geração de
             painéis solares, gerando uma energia 100% limpa.
@@ -16,15 +16,15 @@ const ShortDescriptions = () => {
         <div className="DescriptionItem">
           <p className="DescriptionItemTitle">Jardim e paisagismo</p>
           <p>
-            Alem de um jardim com a flora da regiao, contamos com um espaço para
+            Além de um jardim com a flora da região, contamos com um espaço para
             descanso debaixo das árvores com bancos de madeira.
           </p>
         </div>
         <div className="DescriptionItem">
-          <p className="DescriptionItemTitle">fogo de chao</p>
+          <p className="DescriptionItemTitle">fogo de chão</p>
           <p>
-            Curta um momento unico sob as estrelas junto ao nosso espaco fogo de
-            chao.
+            Curta um momento único sob as estrelas junto ao nosso espaço fogo de
+            chão.
           </p>
         </div>
       </section>
