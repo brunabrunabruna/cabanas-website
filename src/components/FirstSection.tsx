@@ -21,7 +21,15 @@ const FirstSection = () => {
         </p>
         <div className="btns">
           {/* <button className="btn-sobre">SOBRE NÓS</button> */}
-          <button className="btn-reserve">FAÇA SUA RESERVA</button>
+          <button className="btn-reserve">
+            <a
+              href="https://www.airbnb.com.br/rooms/933206395690318249?adults=1&guests=1&viralityEntryPoint=1&s=76&source_impression_id=p3_1691520775_YrKhz7HIOJIeXmBt"
+              target="_blank"
+            >
+              {" "}
+              FAÇA SUA RESERVA
+            </a>
+          </button>
         </div>
       </div>
 

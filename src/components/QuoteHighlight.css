@@ -3,8 +3,16 @@
   font-weight: 500;
   font-size: var(--font-medium);
   font-style: italic;
-  /* width: 50rem; */
   background-color: var(--bg-color-darken);
   padding: 5rem;
-  margin: var(--margin);
+  /* margin: var(--margin); */
+}
+
+@media (max-width: 800px) {
+  .QuoteHighlight {
+    /* padding: 2rem; */
+    /* margin: 5rem; */
+    font-size: var(--font-small);
+    margin-bottom: 5rem;
+  }
 }

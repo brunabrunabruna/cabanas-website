@@ -1,8 +1,21 @@
+.FirstSection {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .ShortDescriptions {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+  max-width: 1000px;
 }
 .ShortDescriptions img {
   height: 40rem;
@@ -12,7 +25,7 @@
   font-family: var(--secondary-font);
 
   width: 20rem;
-  margin-right: 10rem;
+  margin-right: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -23,4 +36,56 @@
 .DescriptionItemTitle {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .ShortDescriptions {
+    display: flex;
+    /* align-items: baseline; */
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 1000px;
+    flex-flow: column wrap;
+    text-align: center;
+  }
+  .DescriptionItem {
+    font-family: var(--secondary-font);
+    font-size: var(--font-small);
+    width: 18rem;
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+  }
+  .ShortDescriptions img {
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .ShortDescriptions {
+    display: flex;
+    /* align-items: baseline; */
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 1000px;
+    flex-flow: column wrap;
+    text-align: center;
+  }
+  .DescriptionItem {
+    font-family: var(--secondary-font);
+    font-size: var(--font-small);
+    width: 18rem;
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+  }
+  .ShortDescriptions img {
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }

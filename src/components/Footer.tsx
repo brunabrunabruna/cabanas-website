@@ -21,7 +21,7 @@ const Footer = () => {
           </button>
         </p>
       </div>
-      <img src={LogoImg} alt="" className="LogoImg" />
+      {/* <img src={LogoImg} alt="" className="LogoImg" /> */}
     </div>
   );
 };

@@ -29,3 +29,17 @@
   margin-top: 3rem;
   font-family: var(--secondary-font);
 } */
+
+@media (max-width: 800px) {
+  .Location {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .Quote2 {
+    font-weight: 800;
+    line-height: 2rem;
+    font-family: var(--secondary-font);
+    font-size: var(--font-small);
+    margin-top: 5rem;
+  }
+}

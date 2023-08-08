@@ -29,3 +29,12 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+@media (max-width: 800px) {
+  .ImgGallery {
+    margin-top: 0rem;
+    gap: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
