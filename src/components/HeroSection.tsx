@@ -1,6 +1,6 @@
 import HeroImg from "../assets/img/hero-img.png";
 import "./HeroSection.css";
-import Logo from "../assets/img/logo.png";
+// import Logo from "../assets/img/logo.png";
 
 const HeroSection = () => {
   return (
